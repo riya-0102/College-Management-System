@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Dashboard</title>
+
+  <!-- HTML/student.html => one level up -->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="dashboard-body">
+
+  <!-- Top Header -->
+  <header class="dashboard-header">
+    <h1>Student Dashboard</h1>
+    <button class="logout-btn" onclick="window.location.href='../index.html'">
+      Logout
+    </button>
+  </header>
+
+  <!-- Dashboard Cards -->
+  <section class="dashboard-container">
+
+    <div class="dash-card attendance">
+      <h2>📋 View Attendance</h2>
+      <p>Check your daily attendance record</p>
+      <button>Open</button>
+    </div>
+
+    <div class="dash-card grades">
+      <h2>📝 View Grades</h2>
+      <p>See exam results and performance</p>
+      <button>Open</button>
+    </div>
+
+    <div class="dash-card courses">
+      <h2>📚 View Courses</h2>
+      <p>Check enrolled courses and subjects</p>
+      <button>Open</button>
+    </div>
+
+    <div class="dash-card fees">
+      <h2>💰 Fee Details</h2>
+      <p>View fee status and payment history</p>
+      <button>Open</button>
+    </div>
+
+  </section>
+
+  <!-- optional JS -->
+  <script src="../js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Faculty Dashboard</title>
+
+  <!-- HTML/faculty.html => one level up -->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="dashboard-body">
+
+  <!-- Top Bar -->
+  <header class="dashboard-header">
+    <h1>Faculty Dashboard</h1>
+    <button class="logout-btn" onclick="window.location.href='../index.html'">
+      Logout
+    </button>
+  </header>
+
+  <!-- Dashboard Content -->
+  <section class="dashboard-container">
+
+    <div class="dash-card attendance">
+      <h2>📋 Mark Attendance</h2>
+      <p>Record daily attendance of students</p>
+      <button>Open</button>
+    </div>
+
+    <div class="dash-card grades">
+      <h2>📝 Upload Grades</h2>
+      <p>Enter and update student grades</p>
+      <button>Open</button>
+    </div>
+
+    <div class="dash-card records">
+      <h2>👥 View Student Records</h2>
+      <p>Access student academic details</p>
+      <button>Open</button>
+    </div>
+
+  </section>
+
+  <!-- optional JS -->
+  <script src="../js/app.js"></script>
+
+</body>
+</html>

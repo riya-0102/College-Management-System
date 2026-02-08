@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>College Management System</title>
+
+  <!-- ROOT index.html => NO ../ -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="main-header">
+  <div class="hero-box">
+    <h1 class="hero-title">College Management System</h1>
+    <p class="hero-subtitle">
+      A centralized platform for managing Students, Faculty & Administration
+    </p>
+  </div>
+</header>
+
+<section class="cards">
+
+  <div class="card admin" onclick="goLogin('admin')">
+    <h2>Admin</h2>
+    <p>Manage students, faculty, courses</p>
+  </div>
+
+  <div class="card student" onclick="goLogin('student')">
+    <h2>Student</h2>
+    <p>View attendance, grades, courses</p>
+  </div>
+
+  <div class="card faculty" onclick="goLogin('faculty')">
+    <h2>Faculty</h2>
+    <p>Upload grades & attendance</p>
+  </div>
+
+</section>
+
+<!-- ROOT index.html => NO ../ -->
+<script src="js/app.js"></script>
+
+<footer class="main-footer">
+  <div class="footer-container">
+
+    <div class="footer-box">
+      <h3>College Management System</h3>
+      <p>
+        A centralized platform designed to manage academic and administrative
+        activities efficiently for students, faculty, and administration.
+      </p>
+    </div>
+
+    <div class="footer-box">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="HTML/login.html">Login</a></li>
+        <li><a href="HTML/admin.html">Admin</a></li>
+        <li><a href="HTML/student.html">Student</a></li>
+        <li><a href="HTML/faculty.html">Faculty</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-box">
+      <h3>Contact</h3>
+      <p>Email: info@collegecms.com</p>
+      <p>Phone: +91 98765 xxxxx</p>
+      <p>Location: India</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 College Management System | Designed by RIYA
+  </div>
+</footer>
+
+</body>
+</html>

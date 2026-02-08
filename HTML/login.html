@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login | College Management System</title>
+
+  <!-- HTML/login.html => one level up -->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="login-body">
+
+  <div class="login-container">
+    <div class="login-card">
+
+      <div class="login-icon">👤</div>
+
+      <h2>Sign In</h2>
+
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+
+      <div class="login-options">
+        <label class="remember-me">
+          <input type="checkbox" id="rememberMe">
+          <span>Remember me</span>
+        </label>
+
+        <a href="#" class="forgot-link">Forgot password?</a>
+      </div>
+
+      <button class="login-btn" onclick="login()">Login</button>
+
+    </div>
+  </div>
+
+  <!-- warning popup -->
+  <div id="warningPopup" class="warning-popup">
+    ⚠️ Please enter username and password
+  </div>
+
+  <!-- JS (correct path) -->
+  <script src="../js/app.js"></script>
+
+</body>
+</html>
